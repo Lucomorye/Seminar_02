@@ -8,6 +8,10 @@ if(firstNumber > secondNumber)
 {
   Console.WriteLine($"{number}  ->  {firstNumber}");
 }
+else if (firstNumber == secondNumber)
+{
+  Console.WriteLine($"{number} -> Цифры равны");
+}
 else
 {
   Console.WriteLine($"{number} -> {secondNumber}");
